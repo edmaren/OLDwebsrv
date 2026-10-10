@@ -16,11 +16,11 @@ along with this program; see the file COPYING. If not, see
 
 
 // @ts-check
-const HOMEBREW_AUTO_SCAN_PATHS = ["/data/homebrew/", "/mnt/usb0/homebrew/",
-				  "/mnt/usb1/homebrew/", "/mnt/usb2/homebrew/",
-				  "/mnt/usb3/homebrew/", "/mnt/usb4/homebrew/",
-				  "/mnt/usb5/homebrew/", "/mnt/usb6/homebrew/",
-				  "/mnt/ext0/homebrew/", "/mnt/ext1/homebrew/"];
+const HOMEBREW_AUTO_SCAN_PATHS = ["/data/", "/mnt/usb0/",
+				  "/mnt/usb1/", "/mnt/usb2/",
+				  "/mnt/usb3/", "/mnt/usb4/",
+				  "/mnt/usb5/", "/mnt/usb6/",
+				  "/mnt/ext0/", "/mnt/ext1/"];
 // order of this matters, if both homebrew.js and eboot.elf exist, homebrew.js will be used
 const HOMEBREW_AUTO_SCAN_ALLOWED_EXEC_NAMES = [ "homebrew.js", "eboot.elf" ];
 
